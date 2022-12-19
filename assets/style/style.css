@@ -64,14 +64,14 @@ footer {
   justify-content: space-between;
   padding-right: 12%;
 }
-#button {
+#proceed {
   -webkit-box-shadow: 5px 0px 28px 1px #00ffff;
   -moz-box-shadow: 5px 0px 28px 1px #00ffff;
   -o-box-shadow: 5px 0px 28px 1px #00ffff;
   box-shadow: 5px 0px 28px 1px #00ffff;
 }
 
-button {
+.button_proceed {
   height: 40px;
   font-size: 1em;
   color: #0b113b;
@@ -79,4 +79,29 @@ button {
   border: 1px;
   padding: 10px 40px;
   background-color: #00ffff;
+}
+
+/* CSS PAGINA 2 (Question Page)*/
+
+#answers {
+  height: 50px;
+  width: 200px;
+  font-size: 1em;
+  color: white;
+  font-weight: bold;
+  border: 2px solid rgba(255, 255, 255, 0.164);
+  border-radius: 30px;
+  padding: 10px 40px;
+  background-color: #ffffff22;
+  box-shadow: -1px -1px 0px 1px white;
+  
+}
+
+.mainReg02{
+align-items: center;
+text-align: center;
+}
+#Question_tabs{
+  width: 35vh;
+  
 }

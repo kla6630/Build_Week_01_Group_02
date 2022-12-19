@@ -25,45 +25,22 @@
   <body>
     <header>
       <img id="logo" src="./assets/img/epicode_logo.png" />
+      <div id="Time">timer</div>
+      <!--da capire come implementare il timer-->
     </header>
-    <main>
-      <div id="title">
-        <h1>Welcome to <span class="bold">your exam</span></h1>
+    <main class="mainReg02">
+      <div id="title" class="BigQuestion">
+        <h1>How can I create a <span class="bold">checkbox in HTML?</span></h1>
       </div>
-      <div id="content">
-        <h2>Instructions</h2>
-        <p>
-          We don't expect most engineers to know the answers to all of these
-          questions, so don't worry if you're unsure of a few of them.
-        </p>
-      </div>
-      <div id="list">
-        <ul>
-          <li>
-            Each question is <span class="bold">timed</span> and can only be
-            <span class="bold">answered once</span>.
-          </li>
-          <li>
-            Changing browser tab or opening other windows will
-            <span class="bold">invalidate the question</span>.
-          </li>
-          <li>
-            This exam will take approx. <span class="bold">0-5 minutes</span>.
-          </li>
-        </ul>
+
+      <div id="Question_tabs">
+        <button id="answers" class="one">risposta1</button>
+        <button id="answers" class="two">risposta2</button>
+        <button id="answers" class="three">risposta3</button>
+        <button id="answers" class="four">risposta4</button>
       </div>
     </main>
-    <footer>
-      <div id="check-box">
-        <input type="checkbox" />
-        <span class="bold">
-          I promise to answer myself without help from anyone</span
-        >
-      </div>
-      <div id="proceed">
-        <button class="button_proceed">PROCEED</button>
-      </div>
-    </footer>
+    <footer></footer>
   </body>
   <script src="./assets/javascript/javascript.js"></script>
 </html>
