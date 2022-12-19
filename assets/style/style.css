@@ -94,14 +94,12 @@ footer {
   padding: 10px 40px;
   background-color: #ffffff22;
   box-shadow: -1px -1px 0px 1px white;
-  
 }
 
-.mainReg02{
-align-items: center;
-text-align: center;
+.mainReg02 {
+  align-items: center;
+  text-align: center;
 }
-#Question_tabs{
+#Question_tabs {
   width: 35vh;
-  
 }
